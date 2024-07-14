@@ -1,3 +1,5 @@
+import { CategoryModel } from "./category.model";
+
 export class ProductModel{
     productId? : number  ;
 
@@ -7,5 +9,6 @@ export class ProductModel{
 
     dateCreation? : Date;
 
-
+    
+     category? : CategoryModel;
 }
